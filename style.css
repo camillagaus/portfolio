@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgba(122, 106, 124, 0.486), rgba(122, 106, 124, 0.486)), url("header.png") ;
+  background-size: cover;
+  height: 100%;
+  
+  background-position: left;
+  
+  /* color: white; */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 20px 0 0;
+  
+}
+
+
+
+h4 {
+  
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  opacity: 1;
+  color: white;
+  letter-spacing: 1px;
+  margin: 10px 0 0 40px;
+}
+
+span {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  opacity: 1;
+  color: white;
+  margin: 0 0 0 40px;
+  
+}
+
+.h2-header {
+  font-size: 28px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  opacity: 1;
+  color: white;
+  margin-left: 40px;
+}
+
+#social-media {
+  margin: 10px;
+  height: 45px;
+  width: 45px;
+  margin-top: 100px;
+  opacity: 1;
+  color: white;
+  
+}
+
+.buttons {
+  display: flex;
+  width: 85%;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+
+.self-portrait {
+  border-radius: 50%;
+  border: white solid 3px;
+  height: 190px;
+  width: 190px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  
+
+}
+
+section {
+  background: rgb(230, 227, 227);
+  padding: 50px 35px ;
+  margin:0;
+  
+
+}
+
+.info-about-me {
+align-self: flex-start;
+}
+
+.presentation {
+  
+  font-family: 'Montserrat';
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin: 0;
+  text-align: left;
+  
+  
+}
+
+.background-color {
+  background-color: rgb(230, 227, 227);
+}
+
+.background-color-white {
+  background:white;
+}
+
+.center {
+  text-align: center;
+}
+
+.categories {
+  text-align: center;
+  background-color: white;
+}
+
+.red {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  font-size: 23px;
+  display: inline-block;
+  padding: 4px 10px;
+  letter-spacing: 1px;
+  font-weight: 700px;
+
+}
+
+.red-text {
+  text-transform: uppercase;
+  color: red;
+  
+}
+
+.project-description {
+  letter-spacing: 0px;
+  font-family: 'Roboto';
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  
+}
+
+.presentation p {
+  margin-bottom: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: red
+}
+
+.tag {
+  display: inline;
+  font-size: 12px;
+  color: #2B2E34;
+  background-color: rgb(252, 204, 216);
+  padding: 2px 10px;
+  font-family: 'Roboto';
+
+}
+
+.project-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  height:200px ;
+  background-size: 396px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.business-project {
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("form.jpg");
+  background-position: center;
+}
+
+.weather-project{
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("weather.PNG");
+  background-position: center;
+}
+
+
+
+.project-title-on-picture {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.719);
+  font-size: 28px;
+  text-align: center;
+}
+
+.montserrat {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.roboto {
+  font-family: 'roboto'
+
+}
+
+.thoughts-image {
+  width: 100%;
+  margin: 30px auto;
+
+}
+
+.left-side {
+  text-align: left;
+}
+
+.normal-weight {
+  font-weight: 100;
+}
+
+.margin-top-40 {
+  margin-top:40px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skills-div {
+  width: 50%;
+}
+
+.small-red-link {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: red;
+  font-family: 'avenir';
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.flexbox-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.logo-div {
+  width: 40%;
+  
+}
+
+.logo-pic {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  background-color: blue;
+  height: 400px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.font-size-footer {
+  margin-top: 15px;
+  font-size: 25px;
+}
