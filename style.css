@@ -256,6 +256,10 @@ align-self: flex-start;
 
 }
 
+.more-thoughts-formatting {
+  margin-top: 70px;
+}
+
 .more-thoughts-formatting a {
   text-decoration: none;
   color: inherit
