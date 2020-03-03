@@ -218,15 +218,20 @@ align-self: flex-start;
   background-size: 396px;
   width: 100%;
   background-repeat: no-repeat;
+  
+  
+  
 }
 
 .business-project {
-  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("form.jpg");
-  background-position: center;
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("desktop.png");
+  
+  background-size: 444px;
+  
 }
 
 .weather-project{
-  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("weather.PNG");
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("mockup.png");
   background-position: center;
 }
 
@@ -412,7 +417,7 @@ footer h4 {
   .business-project,
   .weather-project {
     width: max-content;
-    background-position: left;
+    background-position: center;
     margin: 20px 0 0 0;
     width: 350px;
     height: 300px;
