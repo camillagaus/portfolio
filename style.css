@@ -437,6 +437,10 @@ footer h4 {
     margin:auto;
   }
 
+  .hide-desktop {
+    display: none;
+  }
+
   .other-projects {
     display: flex;
     justify-content: center;
