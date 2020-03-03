@@ -329,7 +329,12 @@ footer {
   font-size: 23px;
 }
 
-@media only screen and (min-width:1020px) {
+footer h4 {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width:700px) {
  
     header {
       display: flex;
