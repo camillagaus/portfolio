@@ -14,29 +14,36 @@
 
 <body>
   <header>
+    <section class="header">
+      <div class="buttons">
+        <a href="#"><img id="social-media" src="linkedin.png" alt="linkedin link"></a>
+        <a href="#"><img id="social-media" src="github.png" alt="github link"></a>
+        <a href="#"><img id="social-media" src="stackoverflow.png" alt="stackoverflow link"></a>
+      </div>
+      <div class="info-about-me">
+        <h4>PORTFOLIO: <span> CAMILLA GAUSLAND CHRISTENSEN</span></h4>
+        <h1>frontend developer</h1>
+        <h2 class="h2-header">+ service management graduate</h2>
+      </div>
 
-    <div class="buttons">
-      <a href="#"><img id="social-media" src="linkedin.png" alt="linkedin link"></a>
-      <a href="#"><img id="social-media" src="github.png" alt="github link"></a>
-      <a href="#"><img id="social-media" src="stackoverflow.png" alt="stackoverflow link"></a>
-    </div>
-    <div class="info-about-me">
-      <h4>PORTFOLIO: <span> CAMILLA GAUSLAND CHRISTENSEN</span></h4>
-      <h1>frontend developer</h1>
-      <h2 class="h2-header">+ service management graduate</h2>
-    </div>
-
-    <div class="image-me">
-      <img class="self-portrait" src="me.jpg" alt="">
-    </div>
+      <div class="image-me">
+        <img class="self-portrait" src="me.jpg" alt="">
+      </div>
+    </section>
   </header>
 
-  <section>
+  <section class="first-section">
+    <div class="decoration-and-presentation">
+      <div class="decoration">
+        <div class="line"></div>
+        <div class=circle></div>
+      </div>
+      <p class="presentation background-color"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      </p>
+    </div>
 
-    <p class="presentation background-color"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-    </p>
   </section>
 
   <section class="categories">
@@ -45,163 +52,186 @@
       DB, Web Accessibly, API:s, C#, mob-programming, pair-programming, Github.</p>
   </section>
 
-  <section class="presentation background-color">
+  <section class="presentation background-color projects-with-img">
+
     <h2 class="red">Featured projects</h2>
-    <a class="project-description" href="">
-      <div class="project-image weather-project">
-        <h2 class="project-title-on-picture">weather</h2>
+    <div class="projects-flexbox-formatting">
+
+      <div class="margin-right earlier-project">
+        <a class="project-description" href="">
+          <div class="project-image weather-project">
+            <h2 class="project-title-on-picture">weather</h2>
+          </div>
+          <p><span class="red-text">weather app. </span>Web app build in Javascript using open weather API <span
+              class="underline">>></span></p>
+          <p class="tag">HTML5</p>
+          <p class="tag">CSS3</p>
+          <p class="tag">SASS</p>
+          <p class="tag">Javascript ES6</p>
+        </a>
       </div>
+      <div class="earlier-project">
+        <a class="project-description" href="">
+          <div class="project-image business-project">
+            <h2 class="project-title-on-picture">
+              Business form</h2>
+          </div>
 
-      <p><span class="red-text">weather app. </span>Web app build in Javascript using open weather API <span
-          class="underline">>></span></p>
-      <p class="tag">HTML5</p>
-      <p class="tag">CSS3</p>
-      <p class="tag">SASS</p>
-      <p class="tag">Javascript ES6</p>
-    </a>
-
-    <a class="project-description" href="">
-      <div class="project-image business-project">
-        <h2 class="project-title-on-picture">
-          Business form</h2>
-
+          <p><span class="red-text">Business site. </span>Business site build in Javascript, with a formulare and an
+            accordion FAQ <span class="underline">>></span></p>
+          <p class="tag">HTML5</p>
+          <p class="tag">CSS3</p>
+          <p class="tag">Javascript ES6</p>
+        </a>
       </div>
-
-      <!-- <img class="project-image" src="form.jpg" alt="formulare project"> -->
-      <p><span class="red-text">Business site. </span>Business site build in Javascript, with a formulare and an
-        accordion FAQ <span class="underline">>></span></p>
-      <p class="tag">HTML5</p>
-      <p class="tag">CSS3</p>
-      <p class="tag">Javascript ES6</p>
-    </a>
-
+    </div>
   </section>
 
-  <section class="project-description presentation">
-    <h2 class="red-text montserrat"> Other projects</h2>
-    <a class="project-description" href="#">
-      <p><span class="red-text">Pizza bot project. </span>Pizza bot built in Javascript, with price and delivery time
-        calculator <span class="underline">>></span></p>
-      <p class="tag">HTML5</p>
-      <p class="tag">CSS3</p>
-      <p class="tag">Javascript ES6</p>
-    </a>
-
-    <a class="project-description" href="#">
-      <p> <span class="red-text">Cluedo game project. </span>Cluedo game made in Javascript. Different characters,
-        weapons and rooms are selected randomly by the user <span class="underline">>></span></p>
-      <p class="tag">HTML5</p>
-      <p class="tag">CSS3</p>
-      <p class="tag">Javascript ES6</p>
-    </a>
-
-    <a class="project-description" href="#">
-      <p><span class="red-text">News magazine project. </span>News magazine built with flexbox. Responsive design for
-        mobile, tablet and desktop <span class="underline">>></span> </p>
-      <p class="tag">HTML5</p>
-      <p class="tag">CSS3</p>
-    </a>
-  </section>
-
-  <section class="project-description montserrat background-color-white">
-    <h2 class="red">My thoughts</h2>
-    <img class="thoughts-image" src="thoughts.png" alt="blue background and a white computer">
-    <div class="left-side roboto">
-      <a class="project-description presentation" href="#">
-        <h3 class="roboto red-text normal-weight">FEB 2020</h3>
-        <h2>Title Lorem ipsum dolor, sit amet consectetur</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Modi perferendis voluptas optio ratione expedita recusandae blanditiis
-          cupiditate temporibus, vel voluptatibus odit beatae maiores! Repellat dolores
-          autem non ad, fuga placeat. <span class="underline">>></span></p>
+  <section class="project-description presentation other-projects">
+    <div class="other-projects-formatting">
+      <h2 class="red-text montserrat"> Other projects</h2>
+      <a class="project-description" href="#">
+        <p><span class="red-text">Pizza bot project. </span>Pizza bot built in Javascript, with price and delivery time
+          calculator <span class="underline">>></span></p>
+        <p class="tag">HTML5</p>
+        <p class="tag">CSS3</p>
+        <p class="tag">Javascript ES6</p>
+      </a>
+      <a class="project-description" href="#">
+        <p> <span class="red-text">Cluedo game project. </span>Cluedo game made in Javascript. Different characters,
+          weapons and rooms are selected randomly by the user <span class="underline">>></span></p>
+        <p class="tag">HTML5</p>
+        <p class="tag">CSS3</p>
+        <p class="tag">Javascript ES6</p>
+      </a>
+      <a class="project-description" href="#">
+        <p><span class="red-text">News magazine project. </span>News magazine built with flexbox. Responsive design for
+          mobile, tablet and desktop <span class="underline">>></span> </p>
+        <p class="tag">HTML5</p>
+        <p class="tag">CSS3</p>
       </a>
     </div>
-    <div>
+  </section>
+
+  <section class="project-description montserrat background-color-white my-thoughts">
+    <h2 class="red">My thoughts</h2>
+    <!-- <div> -->
+      <div class="my-thoughts-formatting">
+    <div class="my-thoughts-headlines margin-right">
+      <img class="thoughts-image" src="thoughts.png" alt="blue background and a white computer">
+      <div class="left-side roboto">
+        <a class="project-description presentation" href="#">
+          <h3 class="roboto red-text normal-weight">FEB 2020</h3>
+          <h2>Title Lorem ipsum dolor, sit amet consectetur</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Modi perferendis voluptas optio ratione expedita recusandae blanditiis
+            cupiditate temporibus, vel voluptatibus odit beatae maiores! Repellat dolores
+            autem non ad, fuga placeat. <span class="underline">>></span></p>
+        </a>
+      </div>
+      </div>
+      <div class="my-thoughts-headlines hide-mobile">
+        <img class="thoughts-image" src="thoughts.png" alt="blue background and a white computer">
+        <div class="left-side roboto">
+          <a class="project-description presentation" href="#">
+            <h3 class="roboto red-text normal-weight">FEB 2020</h3>
+            <h2>Title Lorem ipsum dolor, sit amet consectetur</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Modi perferendis voluptas optio ratione expedita recusandae blanditiis
+              cupiditate temporibus, vel voluptatibus odit beatae maiores! Repellat dolores
+              autem non ad, fuga placeat. <span class="underline">>></span></p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-thoughts-formatting">
       <h2 class="red-text montserrat">More thoughts</h2>
-      <h3 class="left-side roboto margin-top-40"><span class="roboto red-text normal-weight">XXX XXXX.
+      <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto red-text normal-weight">XXX XXXX.
         </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="underline">>></span> </h3>
-      <h3 class="left-side roboto margin-top-40"><span class="roboto red-text normal-weight">XXX XXXX.
+      <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto red-text normal-weight">XXX XXXX.
         </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="underline">>></span> </h3>
-      <h3 class="left-side roboto margin-top-40"><span class="roboto red-text normal-weight">XXX XXXX.
+      <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto red-text normal-weight">XXX XXXX.
         </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         <span class="underline">>></span> </h3>
-      <h3 class="left-side roboto margin-top-40"><span class="roboto red-text normal-weight">XXX XXXX.
+      <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto red-text normal-weight">XXX XXXX.
         </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="underline">>></span> </h3>
     </div>
   </section>
 
   <section class="project-description montserrat background-color">
     <h2 class="red ">Skills</h2>
+    
     <div class="skills">
-    <div class="roboto skills-div">
-      <h3 class="red-text">Code</h3>
-      <p>HTML5</p>
-      <p>CSS3</p>
-      <p>Javascript ES6</p>
-      <p>React</p>
-      <p>SASS</p>
-      <p>C#</p>
-      <p>GitHub</p>
-      <p>Node.js</p>
-    </div>
-    <div class="roboto skills-div">
-      <h3 class="red-text">toolbox</h3>
-      <p>Atom</p>
-      <p>Postman</p>
-      <p>Microsoft Excel</p>
-      <p>Keynote</p>
-      <p>Slack</p>
+      <div class="roboto skills-div">
+        <h3 class="red-text">Code</h3>
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>Javascript ES6</p>
+        <p>React</p>
+        <p>SASS</p>
+        <p>C#</p>
+        <p>GitHub</p>
+        <p>Node.js</p>
+      </div>
+      <div class="roboto skills-div">
+        <h3 class="red-text">toolbox</h3>
+        <p>Atom</p>
+        <p>Postman</p>
+        <p>Microsoft Excel</p>
+        <p>Keynote</p>
+        <p>Slack</p>
 
+      </div>
+      <div class="roboto skills-div">
+        <h3 class="red-text">upcoming</h3>
+        <p>Redux</p>
+      </div>
+      <div class="roboto skills-div">
+        <h3 class="red-text">more</h3>
+        <p>Internal Marketing</p>
+        <p>External Marketing</p>
+        <p>Organization</p>
+        <p>Strategy</p>
+        <p>Consumer behaviour</p>
+        <p>Accounting</p>
+        <p>Management Accounting</p>
+      </div>
     </div>
-    <div class="roboto skills-div">
-      <h3 class="red-text">upcoming</h3>
-      <p>Redux</p>
-    </div>
-    <div class="roboto skills-div">
-      <h3 class="red-text">more</h3>
-      <p>Internal Marketing</p>
-      <p>External Marketing</p>
-      <p>Organization</p>
-      <p>Strategy</p>
-      <p>Consumer behaviour</p>
-      <p>Accounting</p>
-      <p>Management Accounting</p>
-    </div>
-</div>
-</section>
+  </section>
 
-<section class="project-description montserrat background-color-white">
-  <h2 class="red ">for more</h2>
-  <div class="flexbox-logos">
-  <div class="logo-div"> 
-    <a class="small-red-link" href="#">
-    <img class="logo-pic" src="linkedin-red.png" alt="red linkedin logo">
-    <p>Linkedin</p>
-  </a>
-  </div>
-  <div class="logo-div">
-    <a class="small-red-link" href="#">
-    <img class="logo-pic" src="github-red.png" alt="red github logo">
-    <p>github</p>
-  </a>
-  </div>
-  
-  <div class="logo-div">
-    <a class="small-red-link" href="#">
-    <img class="logo-pic" src="stackoverflow-red.png" alt="red stackoverflow logo">
-    <p>stackoverflow</p>
-  </a>
-  </div>
-</div>
-</section>
+  <section class="project-description montserrat background-color-white">
+    <h2 class="red ">for more</h2>
+    <div class="flexbox-logos">
+      <div class="logo-div">
+        <a class="small-red-link" href="#">
+          <img class="logo-pic" src="linkedin-red.png" alt="red linkedin logo">
+          <p>Linkedin</p>
+        </a>
+      </div>
+      <div class="logo-div">
+        <a class="small-red-link" href="#">
+          <img class="logo-pic" src="github-red.png" alt="red github logo">
+          <p>github</p>
+        </a>
+      </div>
 
-<footer>
-  <h4 class="montserrat font-size-footer"> <span> CONTACT</span>
-   </h4>
-  <h4 class="roboto font-size-footer"> <span>Camilla Gausland Christensen</span> </h4>
-  <h4 class="roboto font-size-footer">+46 73 54 65 086</h4>
-  <h4 class="roboto font-size-footer">camilla.gausland@gmail.com</h4>
-</footer>
+      <div class="logo-div">
+        <a class="small-red-link" href="#">
+          <img class="logo-pic" src="stackoverflow-red.png" alt="red stackoverflow logo">
+          <p>stackoverflow</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h4 class="montserrat font-size-footer"> <span> CONTACT</span>
+    </h4>
+    <h4 class="roboto font-size-footer"> <span>Camilla Gausland Christensen</span> </h4>
+    <h4 class="roboto font-size-footer">+46 73 54 65 086</h4>
+    <h4 class="roboto font-size-footer">camilla.gausland@gmail.com</h4>
+  </footer>
 
 </body>
 

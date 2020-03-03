@@ -1,10 +1,11 @@
 body {
   margin: 0;
   
+  
 }
 
 header {
-  background-image: linear-gradient(to bottom, rgba(122, 106, 124, 0.486), rgba(122, 106, 124, 0.486)), url("header.png") ;
+  background-image: linear-gradient(to bottom, rgba(122, 106, 124, 0.486), rgba(122, 106, 124, 0.486)), url("background.jpg") ;
   background-size: cover;
   height: 100%;
   
@@ -12,11 +13,17 @@ header {
   
   /* color: white; */
   background-repeat: no-repeat;
+  
+  
+  
+}
+
+.header {
+  background:none;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 20px 20px 0 0;
-  
+  padding: 20px 45px 0 20px;
 }
 
 
@@ -29,20 +36,22 @@ h4 {
   opacity: 1;
   color: white;
   letter-spacing: 1px;
-  margin: 10px 0 0 40px;
+  margin: 10px 0 0 0px;
 }
 
 span {
   font-weight: bold;
+  
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 55px;
   font-family: 'Montserrat';
   font-weight: 700;
   opacity: 1;
   color: white;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 0px;
+  letter-spacing: 2px;
   
 }
 
@@ -52,7 +61,7 @@ h1 {
   font-weight: bold;
   opacity: 1;
   color: white;
-  margin-left: 40px;
+  margin-left: 0px;
 }
 
 #social-media {
@@ -93,6 +102,28 @@ section {
 
 }
 
+.decoration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  margin: 11px 11px 11px 0px;
+}
+
+.line {
+  width: 60px;
+  height: 5px;
+  background: red;
+}
+
+.circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: -2px;
+}
+
 .info-about-me {
 align-self: flex-start;
 }
@@ -105,6 +136,7 @@ align-self: flex-start;
   line-height: 40px;
   margin: 0;
   text-align: left;
+  padding:0 auto;
   
   
 }
@@ -131,11 +163,13 @@ align-self: flex-start;
   text-transform: uppercase;
   background-color: red;
   color: white;
-  font-size: 23px;
+  font-size: 25px;
   display: inline-block;
-  padding: 4px 10px;
+  /* padding: 4px 10px; */
   letter-spacing: 1px;
   font-weight: 700px;
+  width: max-content;
+  text-align: center;
 
 }
 
@@ -165,7 +199,7 @@ align-self: flex-start;
 
 .tag {
   display: inline;
-  font-size: 12px;
+  font-size: 13px;
   color: #2B2E34;
   background-color: rgb(252, 204, 216);
   padding: 2px 10px;
@@ -223,6 +257,14 @@ align-self: flex-start;
 
 }
 
+.hide-mobile {
+  display: none;
+}
+
+.font-size-23{
+  font-size: 23px;
+}
+
 .left-side {
   text-align: left;
 }
@@ -262,23 +304,151 @@ align-self: flex-start;
 }
 
 .logo-div {
-  width: 40%;
+  width: 100px;
   
 }
 
+.logo-div p {
+  font-size: 13px;
+}
+
 .logo-pic {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 footer {
   background-color: blue;
-  height: 400px;
+  height: 350px;
   text-align: center;
   padding-top: 60px;
 }
 
 .font-size-footer {
   margin-top: 15px;
-  font-size: 25px;
+  font-size: 23px;
+}
+
+@media only screen and (min-width:1020px) {
+ 
+    header {
+      display: flex;
+      justify-content: center;
+    }
+ 
+  .header {
+    width: 60%;
+    background:none;
+  }
+
+  h1 {
+    display:table-caption;
+  }
+
+  #social-media {
+    width: 55px;
+    height: 55px;
+  }
+
+  .first-section {
+  /* .presentation { */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+  }
+
+  .decoration-and-presentation {
+  width: 60%;
+  }
+
+  .center {
+    width: 60%;
+    margin: auto;
+  }
+
+  .categories {
+    padding: 50px 0;
+  }
+
+  .projects-with-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    
+    margin: 30px auto;
+    
+  }
+
+  .project-image {
+    background-size: 600px;
+    width:90%;
+    
+  margin: 30px auto;
+  }
+
+  .projects-flexbox-formatting {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .business-project,
+  .weather-project {
+    width: max-content;
+    background-position: left;
+    margin: 20px 0 0 0;
+    width: 350px;
+    height: 300px;
+  }
+  
+  .margin-right {
+    margin-right: 20px;
+  }
+
+  .earlier-project {
+    width: 40%;
+  }
+
+  .projects-with-img {
+    padding:0;
+  }
+
+  .other-projects-formatting,
+  .more-thoughts-formatting {
+    width: 70%;
+    margin:auto;
+  }
+
+  .other-projects {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+
+  .my-thoughts-formatting {
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+
+  .skills {
+    width: 70%;
+    margin: auto;
+  }
+
+  .flexbox-logos {
+    width: 70%;
+    margin: auto;
+  }
+
 }
