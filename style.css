@@ -214,7 +214,7 @@ align-self: flex-start;
   align-items: center;
   margin: auto;
   margin-top: 50px;
-  height:200px ;
+  height:250px ;
   background-size: 396px;
   width: 100%;
   background-repeat: no-repeat;
@@ -383,8 +383,9 @@ footer {
   }
 
   .project-image {
-    background-size: 600px;
-    width:90%;
+    background-size: 400px;
+    max-width:100%;
+
     
   margin: 30px auto;
   }
@@ -393,8 +394,9 @@ footer {
     display: flex;
     flex-direction: row;
     width: 70%;
-    margin: auto;
-    justify-content: center;
+    /* margin: auto; */
+   justify-content: center;
+   
   }
 
   .business-project,
@@ -416,6 +418,7 @@ footer {
 
   .projects-with-img {
     padding:0;
+    margin-bottom: 0;
   }
 
   .other-projects-formatting,
