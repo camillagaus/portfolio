@@ -1,1 +1,2 @@
 # portfolio
+This is a portfolio I've created, filled with earlier projects I've done, the articles I've written and skills I have. The portfolio is made with HTML and CSS and I've worked a lot with flexbox. 
