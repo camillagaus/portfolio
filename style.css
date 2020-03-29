@@ -188,17 +188,17 @@ align-self: flex-start;
   margin: auto;
   margin-top: 50px;
   height:250px ;
-  background-size: 396px;
+  /* background-size: 396px; */
   width: 100%;
   background-repeat: no-repeat;
 }
 
-.business-project {
+.project-two {
   background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("desktop.png");
-  background-size: 444px;
+  /* background-size: 444px; */
 }
 
-.weather-project{
+.project-one{
   background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("mockup.png");
   background-position: center;
 }
@@ -374,8 +374,8 @@ footer h4 {
     justify-content: center;
   }
 
-  .business-project,
-  .weather-project {
+  .project-two,
+  .project-one {
     width: max-content;
     background-position: center;
     margin: 20px 0 0 0;
