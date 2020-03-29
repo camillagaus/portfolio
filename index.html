@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,54 +12,53 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Portfolio</title>
 </head>
+
 <body>
   <header>
     <section class="header">
-      <div class="buttons">
-        <a href="https://www.linkedin.com/in/camilla-gausland-christensen/?originalSubdomain=se"><img id="social-media"
+      <article class="buttons">
+        <a href="https://www.linkedin.com/in/camilla-gausland-christensen/?originalSubdomain=se"><img class="social-media"
             src="linkedin.png" alt="linkedin link"></a>
-        <a href="https://github.com/camillagaus"><img id="social-media" src="github.png" alt="github link"></a>
-        <a href="https://stackoverflow.com/users/12689522/camilla"><img id="social-media" src="stackoverflow.png"
+        <a href="https://github.com/camillagaus"><img class="social-media" src="github.png" alt="github link"></a>
+        <a href="https://stackoverflow.com/users/12689522/camilla"><img class="social-media" src="stackoverflow.png"
             alt="stackoverflow link"></a>
-      </div>
-      <div class="info-about-me" tabindex="0">
+      </article>
+      <article class="info-about-me" tabindex="0">
         <h4>PORTFOLIO: <span> CAMILLA GAUSLAND CHRISTENSEN</span></h4>
         <h1>frontend developer</h1>
         <h2 class="h2-header">+ service management graduate</h2>
-      </div>
+      </article>
       <div class="image-me">
         <img class="self-portrait" src="me.jpg" alt="picture of Camilla">
       </div>
     </section>
   </header>
   <section class="first-section">
-    <div class="decoration-and-presentation">
+    <article class="decoration-and-presentation">
       <div class="decoration">
         <div class="line"></div>
         <div class=circle></div>
       </div>
-      <p class="presentation background-color" tabindex="0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod
-        tempor incididunt
-        ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      <p class="presentation background-color" tabindex="0">
+        Hello! I'm a front-end developer with a background of Service Management.
+        I'm ambitious and open minded person with an eye for 'the small extra' things.
       </p>
-    </div>
+    </article>
   </section>
-  <section class="categories">
-    <h2 class="red" tabindex="0">tech</h2>
+  <article class="categories">
+    <h2 class="headline" tabindex="0">tech</h2>
     <p class="presentation center">HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux, Node.js, Mongo
       DB, Web Accessibly, API:s, C#, mob-programming, pair-programming, Github.</p>
-  </section>
+  </article>
   <section class="presentation background-color projects-with-img">
-    <h2 class="red" tabindex="0">Featured projects</h2>
+    <h2 class="headline" tabindex="0">Featured projects</h2>
     <div class="projects-flexbox-formatting">
       <div class="margin-right earlier-project">
         <a class="project-description" href="https://nifty-albattani-3edf5f.netlify.com">
           <div class="project-image weather-project">
             <h2 class="project-title-on-picture">weather</h2>
           </div>
-          <p><span class="red-text">weather app. </span>Web app build in Javascript using open weather API <span
-              class="underline">>></span></p>
+          <p><span class="project-headline">best prroject </span> BEST PROJECT DESCRIPTION <span class="underline">>></span></p>
           <p class="tag">HTML5</p>
           <p class="tag">CSS3</p>
           <p class="tag">SASS</p>
@@ -71,41 +71,90 @@
             <h2 class="project-title-on-picture">
               Food review</h2>
           </div>
-          <p><span class="red-text">Food review. </span> Food review site built in Javascript useing Zomato API <span
+          <p><span class="project-headline">XXXXXX Best project. </span> XXXXXXX project description <span
               class="underline">>></span></p>
           <p class="tag">HTML5</p>
           <p class="tag">CSS3</p>
           <p class="tag">Javascript ES6</p>
         </a>
-      </div>
+      </section>
     </div>
   </section>
   <section class="project-description presentation other-projects">
     <div class="other-projects-formatting">
-      <h2 class="red-text montserrat" tabindex="0"> Other projects</h2>
+      <h2 class="project-headline montserrat" tabindex="0"> Other projects</h2>
+
+      <a class="project-description" href="https://determined-yonath-a41b2c.netlify.com/">
+        <p><span class="project-headline">Music Release project </span> This website is built with React, and it will list
+          all the top music albums in the US.
+          <span class="underline">>></span></p>
+        <p class="tag">React</p>
+        <p class="tag">API</p>
+        <p class="tag">HTML5</p>
+        <p class="tag">CSS3</p>
+      </a>
+
+      <a class="project-description" href="https://amazing-borg-5e3b05.netlify.com/">
+        <p><span class="project-headline">Happy Thoughts </span> This is an app where the user can send a 140 characters
+          long post which will render on the screen. The user can use the heart button to like other posts. The app is
+          built
+          in React using an API.
+          <span class="underline">>></span></p>
+        <p class="tag">React</p>
+        <p class="tag">API</p>
+        <p class="tag">HTML5</p>
+        <p class="tag">CSS3</p>
+      </a>
+
+      <a class="project-description" href="https://compassionate-montalcini-16fb84.netlify.com">
+        <p><span class="project-headline">Survey project </span>A survey built in React. The survey has four questions, and the
+          answers will be summarized for the user after submitting the form. <span class="underline">>></span></p>
+        <p class="tag">React</p>
+        <p class="tag">HTML5</p>
+        <p class="tag">CSS3</p>
+      </a>
+
+      <a class="project-description" href="https://unruffled-stonebraker-b53520.netlify.com/">
+        <p><span class="project-headline">Food review </span>Food review site built in Javascript useing Zomato API <span
+            class="underline">>></span></p>
+        <p class="tag">Javascript ES6</p>
+        <p class="tag">API</p>
+        <p class="tag">HTML5</p>
+        <p class="tag">CSS3</p>
+      </a>
+
+      <a class="project-description" href="https://nifty-albattani-3edf5f.netlify.com">
+        <p><span class="project-headline">weather app </span> Web app build in Javascript using open weather API <span
+            class="underline">>></span></p>
+        <p class="tag">Javascript ES6</p>
+        <p class="tag">API</p>
+        <p class="tag">HTML5</p>
+        <p class="tag">CSS3</p>
+      </a>
+
       <a class="project-description" href="https://elated-lamport-7f1a86.netlify.com">
-        <p><span class="red-text">Business site </span>Business site build in Javascript, with a formulare and an
+        <p><span class="project-headline">Business site </span>Business site build in Javascript, with a formulare and an
           accordion FAQ <span class="underline">>></span></p>
         <p class="tag">HTML5</p>
         <p class="tag">CSS3</p>
         <p class="tag">Javascript ES6</p>
       </a>
       <a class="project-description" href="https://hardcore-swirles-3a3762.netlify.com">
-        <p><span class="red-text">Pizza bot project. </span>Pizza bot built in Javascript, with price and delivery time
+        <p><span class="project-headline">Pizza bot project. </span>Pizza bot built in Javascript, with price and delivery time
           calculator <span class="underline">>></span></p>
         <p class="tag">HTML5</p>
         <p class="tag">CSS3</p>
         <p class="tag">Javascript ES6</p>
       </a>
       <a class="project-description" href="https://xenodochial-easley-42c18c.netlify.com">
-        <p> <span class="red-text">Cluedo game project. </span>Cluedo game made in Javascript. Different characters,
+        <p> <span class="project-headline">Cluedo game project. </span>Cluedo game made in Javascript. Different characters,
           weapons and rooms are selected randomly by the user <span class="underline">>></span></p>
         <p class="tag">HTML5</p>
         <p class="tag">CSS3</p>
         <p class="tag">Javascript ES6</p>
       </a>
       <a class="project-description" href="https://gallant-albattani-884a5d.netlify.com">
-        <p><span class="red-text">News magazine project. </span>News magazine built with flexbox. Responsive design for
+        <p><span class="project-headline">News magazine project. </span>News magazine built with flexbox. Responsive design for
           mobile, tablet and desktop <span class="underline">>></span> </p>
         <p class="tag">HTML5</p>
         <p class="tag">CSS3</p>
@@ -113,14 +162,14 @@
     </div>
   </section>
   <section class="project-description montserrat background-color-white my-thoughts">
-    <h2 class="red" tabindex="0">My thoughts</h2>
+    <h2 class="headline" tabindex="0">My thoughts</h2>
     <div class="my-thoughts-formatting">
       <div class="my-thoughts-headlines margin-right">
         <img class="thoughts-image" src="thoughts.png" alt="blue background and a white computer">
         <div class="left-side roboto">
           <a class="project-description presentation"
             href="https://medium.com/@camilla.gausland/the-beginning-of-a-new-life-journey-b57ac0c58b1">
-            <h3 class="roboto red-text normal-weight">FEB 2020</h3>
+            <h3 class="roboto project-headline normal-weight">FEB 2020</h3>
             <h2>A new life journey</h2>
             <p>A lot has happened since last year. If I was supposed to guess what I would do one year from then...
               <span class="underline">>></span></p>
@@ -132,7 +181,7 @@
         <div class="left-side roboto">
           <a class="project-description presentation"
             href="https://medium.com/@camilla.gausland/visiting-the-rollercoaster-85efd996aabe">
-            <h3 class="roboto red-text normal-weight">MAR 2020</h3>
+            <h3 class="roboto project-headline normal-weight">MAR 2020</h3>
             <h2>Visiting the rollercoaster</h2>
             <p>What has happened since last sprint? A lot, for sure. We have started working with Javascript, I have...
               <span class="underline">>></span></p>
@@ -141,32 +190,33 @@
       </div>
     </div>
     <div class="more-thoughts-formatting" tabindex="0">
-      <h2 class="red-text montserrat">More thoughts</h2>
-      <a href="https://medium.com/@camilla.gausland/visiting-the-rollercoaster-85efd996aabe">
+      <h2 class="project-headline montserrat">More thoughts</h2>
+      
+      <a href="https://medium.com/@camilla.gausland/half-way-through-314363ae21">
         <h3 class="left-side roboto margin-top-40 font-size-23 hide-desktop"><span
-            class="roboto red-text normal-weight">MAR 2020.
+            class="roboto project-headline normal-weight">MAR 2020.
           </span>Visiting the rollercoaster <span class="underline">>></span> </h3>
       </a>
-      <a href="">
-        <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto red-text normal-weight">XXX XXXX.
-          </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="underline">>></span> </h3>
+      <a href="https://medium.com/@camilla.gausland/half-way-through-314363ae21">
+        <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto project-headline normal-weight">APR 2020.
+          </span>Half way through... <span class="underline">>></span> </h3>
       </a>
       <a href="">
-        <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto red-text normal-weight">XXX XXXX.
+        <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto project-headline normal-weight">XXX XXXX.
           </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           <span class="underline">>></span> </h3>
       </a>
       <a href="">
-        <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto red-text normal-weight">XXX XXXX.
+        <h3 class="left-side roboto margin-top-40 font-size-23"><span class="roboto project-headline normal-weight">XXX XXXX.
           </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="underline">>></span> </h3>
       </a>
     </div>
   </section>
   <section class="project-description montserrat background-color">
-    <h2 class="red" tabindex="0">Skills</h2>
+    <h2 class="headline" tabindex="0">Skills</h2>
     <div class="skills">
       <div class="roboto skills-div">
-        <h3 class="red-text">Code</h3>
+        <h3 class="project-headline">Code</h3>
         <p>HTML5</p>
         <p>CSS3</p>
         <p>Javascript ES6</p>
@@ -177,21 +227,23 @@
         <p>Node.js</p>
       </div>
       <div class="roboto skills-div">
-        <h3 class="red-text">toolbox</h3>
+        <h3 class="project-headline">toolbox</h3>
         <p>Atom</p>
         <p>Postman</p>
+        <p>VS Code</p>
         <p>Microsoft Excel</p>
         <p>Keynote</p>
         <p>Slack</p>
       </div>
       <div class="roboto skills-div">
-        <h3 class="red-text">upcoming</h3>
+        <h3 class="project-headline">upcoming</h3>
         <p>Redux</p>
       </div>
       <div class="roboto skills-div">
-        <h3 class="red-text">more</h3>
+        <h3 class="project-headline">more</h3>
         <p>Internal Marketing</p>
         <p>External Marketing</p>
+        <p>Leadership</p>
         <p>Organization</p>
         <p>Strategy</p>
         <p>Consumer behaviour</p>
@@ -201,7 +253,7 @@
     </div>
   </section>
   <section class="project-description montserrat background-color-white">
-    <h2 class="red ">for more</h2>
+    <h2 class="headline">for more</h2>
     <div class="flexbox-logos">
       <div class="logo-div">
         <a class="small-red-link" href="https://www.linkedin.com/in/camilla-gausland-christensen/?originalSubdomain=se">
@@ -231,4 +283,5 @@
     <h4 class="roboto font-size-footer" tabindex="0">camilla.gausland@gmail.com</h4>
   </footer>
 </body>
+
 </html>

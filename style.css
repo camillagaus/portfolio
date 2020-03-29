@@ -136,7 +136,7 @@ align-self: flex-start;
   background-color: white;
 }
 
-.red {
+.headline {
   font-family: 'Montserrat';
   text-transform: uppercase;
   background-color: red;
@@ -149,7 +149,7 @@ align-self: flex-start;
   text-align: center;
 }
 
-.red-text {
+.project-headline {
   text-transform: uppercase;
   color: red;
 }
@@ -328,7 +328,7 @@ footer h4 {
     display:table-caption;
   }
 
-  #social-media {
+  .social-media {
     width: 55px;
     height: 55px;
   }
