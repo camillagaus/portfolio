@@ -368,7 +368,7 @@ footer h4 {
   }
 
   .project-image {
-    background-size: 400px;
+    background-size: cover;
     max-width:100%;
     margin: 30px auto;
   }
