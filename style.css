@@ -194,16 +194,19 @@ align-self: flex-start;
   /* background-size: 396px; */
   width: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .project-two {
-  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("desktop.png");
-  /* background-size: 444px; */
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("survey.png");
+  
 }
 
 .project-one{
-  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("mockup.png");
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("movies.png");
   background-position: center;
+  
 }
 
 .project-title-on-picture {
