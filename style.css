@@ -51,7 +51,7 @@ h1 {
   margin-left: 0px;
 }
 
-#social-media {
+.social-media {
   margin: 10px;
   height: 45px;
   width: 45px;
@@ -62,9 +62,12 @@ h1 {
 
 .buttons {
   display: flex;
-  width: 85%;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.buttons img {
+  margin: 0 5px;
 }
 
 .self-portrait {
