@@ -209,6 +209,16 @@ align-self: flex-start;
   
 }
 
+.project-three {
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("happy\ .png");
+  
+}
+
+.project-four {
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("todos.png");
+  
+}
+
 .project-title-on-picture {
   font-family: 'Montserrat';
   font-weight: 700;
@@ -381,7 +391,9 @@ footer h4 {
   }
 
   .project-two,
-  .project-one {
+  .project-one,
+  .project-three,
+  .project-four {
     width: max-content;
     background-position: center;
     margin: 20px 0 0 0;
