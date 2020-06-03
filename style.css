@@ -199,12 +199,12 @@ align-self: flex-start;
 }
 
 .project-two {
-  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("survey.png");
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("auth.png");
   
 }
 
 .project-one{
-  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("movies.png");
+  background-image: linear-gradient(to bottom, rgba(130, 81, 158, 0.486), rgba(130, 81, 158, 0.486)),  url("mongodb.jpeg");
   background-position: center;
   
 }
